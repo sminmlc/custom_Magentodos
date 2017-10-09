@@ -1,0 +1,131 @@
+// *****************************************************
+//  * @package Venus Theme Framework for Magento 2.x
+//  * @version 1.0
+//  * @author http://www.venustheme.com
+//  * @copyright Copyright (C) Augus 2015 VenusThemes.com <@email:venusthemes@gmail.com>.All rights reserved.
+//  * @license   GNU General Public License version 1
+// ******************************************************
+body{
+    &.layout-boxed-md{
+        #page{  
+            max-width: @layout__max-width;  
+        }  
+    }
+    &.layout-boxed-lg{
+        #page{  
+            max-width: @layout__max-width;   
+        }
+    }
+    &.fullwidth{ 
+    }  
+}
+
+.cms-home h1.page-title { display: none !important;}
+.cms-home .page-main .columns { display: none !important;}
+.category-sale .column.main { min-height: auto;}
+
+// Menu top
+.sections.nav-sections{
+    margin-bottom: 0;
+}
+
+.breadcrumbs {
+    background: url("../images/bg_brc.jpg") no-repeat center center;
+    padding:65px 0;
+    margin-bottom: 40px;
+    .item {
+        strong {
+            color: #ef5d5d;
+        }
+    }
+}
+
+// Slideshow
+.ves-slideshow {
+    margin: 30px 0 0;
+}
+// Banner Top
+.ves-bannertop {
+    a {
+        float: left;
+        width: 100%;
+        margin-bottom: 25px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+} 
+
+// Showcase
+.ves_showcase {
+    margin-bottom: 30px;
+}
+
+.ves-masstop {
+    margin-bottom: 30px;
+}
+
+// Brand module
+.ves-massbottom {
+    margin-bottom: 30px;
+    padding:50px 0 20px;
+    background:url("../images/bg_brand_module.jpg") no-repeat center center;
+    .block {
+        margin-bottom: 0;
+        .block-title {
+            strong {color: @white;}
+        }
+        .block-content{ 
+            color: @white;
+            padding:30px 0;
+
+        }
+    }
+}
+
+.brand-image {
+    img {
+        .opacity(0.5);
+        &:hover, &:focus {
+            .opacity(1);
+        }
+    }
+}
+
+.call-online{
+    float: left;
+    color: #222;
+    span {color: #f00}
+}
+
+.ves-massbottom2 {}
+
+.footer-top {
+    background: #f1f1f1;
+    padding:40px 0 0;
+    color: #999;
+}
+
+.footer-center {
+    background: #2f2f2f;
+    padding:40px 0 0;
+    color: #777;
+}
+
+.copyright {
+    background: #000;
+    min-height: 50px;
+    line-height: 50px;
+    color: #777;
+    text-align: center;
+    font-size: 14px;
+    font-family: "georgia",sans-serif;
+    a {
+        color: @white;
+    }
+}
+
+.pages strong.page { padding: 0 15px !important}
+.pages .item {
+    font-size: 15px!important;
+}
